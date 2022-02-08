@@ -46,3 +46,5 @@ CREATE TABLE dept_emp (
 FOREIGN KEY (emp_no) REFERENCES employees (emp_no),
 FOREIGN KEY (emp_no) REFERENCES salaries (emp_no)
 );
+
+
